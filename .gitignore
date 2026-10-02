@@ -1,0 +1,18 @@
+# Playwright 테스트 산출물
+.playwright-mcp/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Streamlit 로컬 비밀값 (사용하지 않지만 실수로 올라가지 않게)
+.streamlit/secrets.toml
+
+# OS / 편집기
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
